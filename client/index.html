@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="./public/favicon/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/0da9aa710c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="./src/assets/css/announcements.css">
+  <link rel="stylesheet" href="./src/assets/css/style.css" />
+  <title>MinT | Unlocking Ethiopia’s Digital Potential</title>
+
+  <script defer src="./src/assets/js/script.js"></script>
+  <script defer src="./src/assets/js/index.js"></script>
+  <script defer src="./src/assets/js/announcements.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav collapsible">
+      <div class="nav__logo--container"> <img src="./src/assets/img/logo.png" alt="MinT logo" class="nav__logo"
+          id="logo" designer="MinT" /></div>
+
+      <ul class="nav__links collapsible__content">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operations</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimonials</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Announcement</a>
+        </li>
+      </ul>
+      <script>
+        function redirectToPage() {
+          // Redirect to another page using window.location.assign
+          window.location.assign('./src/components/announcements.html');
+        }
+      </script>
+
+      <a class="nav__icon collapsible__icon">
+        <svg class="icon ">
+          <use xlink:href="./src/assets/img/menu.svg#list"></use>
+        </svg>
+      </a>
+
+    </nav>
+
+    <div class="header__title container-md">
+      <!-- <h1 onclick="alert('HTML alert')"> -->
+
+      <h1>
+        When
+        <!-- Green highlight effect -->
+        <span class="highlight">Innovation</span>
+        Meets
+        <span class="highlight">Progress</span>
+      </h1>
+      <h4>Simplifying Technology for a Brighter Future.</h4>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img src="./src/assets/img/hero.png" class="header__img" alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Features</h2>
+      <h3 class="section__header">
+        Everything you need in a modern innovation hub and more.
+      </h3>
+    </div>
+
+    <div class="features">
+
+      <div class="grid feature__content mb-5">
+        <img src="./src/assets/img/empowering-Innovation-lazy.webp"
+          data-src="./src/assets/img/empowering-Innovation.webp" alt="Computer" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg class="icon">
+              <use xlink:href="./src/assets/img/sprite.svg#lightbulb-regular"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Empowering Innovation</h5>
+          <p>
+            100% dedicated to fostering innovation and technological advancement. The Ministry of Innovation and
+            Technology in
+            Ethiopia is at the forefront of the nation's digital transformation. From policy development to supporting
+            startups, the
+            ministry ensures that Ethiopia stays ahead in the global tech landscape.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid feature__content mb-5">
+        <div class="grid__column">
+          <img src="./src/assets/img/watch-Ethiopia-Innovate-lazy.webp"
+            data-src="./src/assets/img/watch-Ethiopia-Innovate.webp" alt="Plant" class="features__img lazy-img " />
+        </div>
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg class="icon">
+              <use xlink:href="./src/assets/img/sprite.svg#magnifying-glass-dollar-solid"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch Ethiopia Innovate</h5>
+          <p>
+            The MoIT actively promotes innovation across all sectors. By supporting research and development, the
+            ministry
+            empowers
+            young entrepreneurs and innovators to turn their ideas into reality. This commitment is helping Ethiopia
+            grow
+            into a hub
+            of innovation and creativity.
+          </p>
+        </div>
+
+
+
+      </div>
+
+      <div class="grid">
+        <img src="./src/assets/img/tech-for-all-lazy.webp" data-src="./src/assets/img/tech-for-all.webp"
+          alt="Credit card" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg class="icon">
+              <use xlink:href="./src/assets/img/sprite.svg#globe-solid"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Tech for All
+            Inclusive Digital Transformation
+          </h5>
+          <p>
+            The ministry’s initiatives focus on ensuring that all citizens, regardless of location or background, have
+            access to the
+            benefits of digital transformation. Through partnerships with local and international stakeholders, MoIT
+            provides
+            resources, training, and opportunities to bridge the digital divide.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Operations</h2>
+      <h3 class="section__header">
+        Everything as simple as possible, but no simpler.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Policy Development
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Digital Services
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Startup Support
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg class="icon">
+            <use xlink:href="./src/assets/img/sprite.svg#pen-to-square-regular"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Simplifying Innovation
+        </h5>
+        <p>
+          MoIT creates clear and effective policies that foster innovation. These policies aim to remove obstacles for
+          innovators
+          and businesses, making it easier for them to thrive in Ethiopia's tech landscape. By focusing on
+          straightforward and
+          actionable policies, MoIT ensures that the process of innovation is accessible and streamlined.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg class="icon">
+            <use xlink:href="./src/assets/img/sprite.svg#computer-solid"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Empowering Citizens
+        </h5>
+        <p>
+          MoIT works to digitize government services, making them more accessible and user-friendly for the general
+          population.
+          Whether it’s providing online platforms for public services or ensuring internet access in remote areas, MoIT
+          simplifies
+          how citizens interact with technology and government services.
+        </p>
+
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg class="icon">
+            <use xlink:href="./src/assets/img/sprite.svg#rocket-solid"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Supporting Growth
+        </h5>
+        <p>
+          MoIT provides essential resources, mentorship, and funding to startups. The ministry simplifies the process of
+          starting
+          and scaling a business by offering easy access to support systems. This ensures that entrepreneurs can focus
+          on
+          innovation without getting bogged down by complex administrative procedures.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Not sure yet?</h2>
+      <h3 class="section__header">
+        Millions of Ethiopians are already benefiting from digital transformation.
+        Leading the Charge in Innovation!
+      </h3>
+
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <!-- <h5 class="testimonial__header">Best financial decision ever!</h5> -->
+          <blockquote class="testimonial__text">
+            The Ministry’s support for innovation has been instrumental in turning my tech startup into a reality. Their
+            resources
+            and guidance have been invaluable.
+          </blockquote>
+          <address class="testimonial__author">
+            <!-- <img src="img/user-1.jpg" alt="" class="testimonial__photo" /> -->
+            <div class="features__icon testimonial__photo">
+              <svg class="icon">
+                <use xlink:href="./src/assets/img/sprite.svg#circle-user-regular"></use>
+              </svg>
+            </div>
+            <h6 class="testimonial__name">Meklit Tadesse
+            </h6>
+            <p class="testimonial__location">Addis Ababa, Ethiopia</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <!-- <h5 class="testimonial__header">
+            The last step to becoming a complete minimalist
+          </h5> -->
+          <blockquote class="testimonial__text">
+            Thanks to the ministry’s digital initiatives, accessing government services has never been easier. It’s a
+            game-changer
+            for rural communities.
+          </blockquote>
+          <address class="testimonial__author">
+            <!-- <img src="img/user-2.jpg" alt="" class="testimonial__photo" /> -->
+            <div class="features__icon testimonial__photo">
+              <svg class="icon">
+                <use xlink:href="./src/assets/img/sprite.svg#circle-user-regular"></use>
+              </svg>
+            </div>
+            <h6 class="testimonial__name">Alemayehu Worku
+            </h6>
+            <p class="testimonial__location">Bahir Dar, Ethiopia</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <!-- <h5 class="testimonial__header">
+            Finally free from old-school banks
+          </h5> -->
+          <blockquote class="testimonial__text">
+            MoIT’s dedication to supporting women in tech is inspiring. I’ve received incredible opportunities through
+            their
+            programs.
+          </blockquote>
+          <address class="testimonial__author">
+            <!-- <img src="img/user-3.jpg" alt="" class="testimonial__photo" /> -->
+            <div class="features__icon testimonial__photo">
+              <svg class="icon">
+                <use xlink:href="./src/assets/img/sprite.svg#circle-user-regular"></use>
+              </svg>
+            </div>
+            <h6 class="testimonial__name">Fatima Hassen
+            </h6>
+            <p class="testimonial__location">Hawassa, Ethiopia</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <section class="container section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best time to embrace innovation was yesterday. The second best time is today!
+          Join the digital revolution with the Ministry of Innovation and Technology.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">View Announcement</button>
+    </section>
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.youtube.com/@MinistryofInnovationandTechnol" target="_blank">
+          <svg class="icon footer__icon">
+            <use xlink:href="./src/assets/img/social-media-icon.svg#youtube-brands-solid"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://t.me/MinTEthiopia"><svg class="icon footer__icon">
+            <use xlink:href="./src/assets/img/social-media-icon.svg#telegram-brands-solid"></use>
+          </svg></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.linkedin.com/company/ministry-of-innovation-and-technology-ethiopia/"
+          target="_blank"><svg class="icon footer__icon">
+            <use xlink:href="./src/assets/img/social-media-icon.svg#linkedin-brands-solid"></use>
+          </svg></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.facebook.com/MInT.Ethiopia" target="_blank"><svg
+            class="icon footer__icon">
+            <use xlink:href="./src/assets/img/social-media-icon.svg#facebook-brands-solid"></use>
+          </svg></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#"><svg class="icon footer__icon">
+            <use xlink:href="./src/assets/img/social-media-icon.svg#twitter-brands-solid"></use>
+          </svg></a>
+      </li>
+
+    </ul>
+    <img src="./src/assets/img/logo.png" alt="Logo" class="footer__logo" />
+    <p class="footer__copyright">
+      &copy; Copyright by MinT 2016 E.c
+    </p>
+  </footer>
+
+  <div class="modal-1 hidden">
+    <div class="relative"><button class="btn--close-modal">&times;</button></div>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <!-- <script src="script.js"></script> -->
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>

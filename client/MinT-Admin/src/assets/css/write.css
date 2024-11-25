@@ -1,0 +1,87 @@
+/* Reset some basic styles for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* min-height: 100vh; */
+  margin: 0;
+}
+
+.container-custom {
+  /* max-width: 500px; */
+  width: 50%;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  margin-top: 10rem;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-write {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.inp-write {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.textarea {
+  resize: vertical;
+}
+.btn-write {
+  background-color: #5ec576;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Make form fields look good on small screens */
+@media (max-width: 400px) {
+  .container-custom {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .inp-type {
+    font-size: 14px;
+  }
+
+  .btn-write {
+    font-size: 14px;
+  }
+}

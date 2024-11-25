@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="shortcut icon" href="../../public/favicon/favicon.ico" type="image/x-icon">
+
+    <script defer src="result.js"></script>
+    <link rel="stylesheet" href="result.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form id="applicationForm" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="first_name" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="last_name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phone_number" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth" name="date_of_birth" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Education</legend>
+                <label for="degreeObtained">Degree Obtained:</label>
+                <input type="text" id="degreeObtained" name="degree_obtained" required>
+
+                <label for="fieldOfStudy">Field of Study:</label>
+                <input type="text" id="fieldOfStudy" name="field_study" required>
+
+                <label for="institutionName">Institution Name:</label>
+                <input type="text" id="institutionName" name="institution_name" required>
+
+                <label for="graduationDate">Graduation Date:</label>
+                <input type="date" id="graduationDate" name="graduation_date" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Work Experience</legend>
+                <label for="jobTitle">Job Title:</label>
+                <input type="text" id="jobTitle" name="job_title" required>
+
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="company_name" required>
+
+                <label for="employmentStartDate">Employment Start Date:</label>
+                <input type="date" id="employmentStartDate" name="start_date" required>
+
+                <label for="employmentEndDate">Employment End Date:</label>
+                <input type="date" id="employmentEndDate" name="end_date">
+
+                <label for="jobDescription">Job Description:</label>
+                <textarea id="jobDescription" name="job_description" rows="4"></textarea>
+
+                <label for="cv">Upload Document:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" class="form-control" required>
+            </fieldset>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+
+</html>
