@@ -1,6 +1,6 @@
 # Employment Vacancy Web App
 
-![Home Page](client/public/mintW.PNG)
+![Home Page](client/public/favicon/mintW.PNG)
 
 A web application developed during my internship at the **Ministry of Innovation and Technology (MINT)** to help job seekers easily access and apply for job opportunities.
 
@@ -16,10 +16,10 @@ A web application developed during my internship at the **Ministry of Innovation
 - **Database:** MySQL  
 
 ## 📌 System Design  
-![Use Case Diagram](client/public/MinT-Zip.png)  
+![Use Case Diagram](client/public/favicon/MinT-Zip.png)  
 
-## 🚀 Getting Started  
+## 🚀 Get Started  
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/yourusername/vacancy-web-app.git
+   git clone https://github.com/Esam-jr/MINT-Vacancy
