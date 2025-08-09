@@ -155,12 +155,13 @@ SESSION_SECRET=change_me
 
 - **Landing page**:
 
-  ![Landing page](client/public/favicon/mintW.PNG)
+  ![Landing page](client/public/favicon/landing_page.PNG)
 
 - **Use case diagram**:
 
-  ![Use case diagram](client/public/favicon/MinT-Zip.png)
+  ![Use case diagram](client/public/favicon/usecase_diagram.png)
 
 ### License
 
 This repository is provided as-is. If you require a specific license, add a `LICENSE` file accordingly.
+
