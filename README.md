@@ -151,6 +151,16 @@ SESSION_SECRET=change_me
 - If requests are blocked, check CORS settings (`CORS_ORIGIN`) and dev server ports
 - Verify the DB connection details and that the schema is imported
 
+### Visuals
+
+- **Landing page**:
+
+  ![Landing page](client/public/favicon/mintW.PNG)
+
+- **Use case diagram**:
+
+  ![Use case diagram](client/public/favicon/MinT-Zip.png)
+
 ### License
 
 This repository is provided as-is. If you require a specific license, add a `LICENSE` file accordingly.
