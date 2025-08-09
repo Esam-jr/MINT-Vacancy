@@ -161,7 +161,5 @@ SESSION_SECRET=change_me
 
   ![Use case diagram](client/public/favicon/usecase_diagram.png)
 
-### License
 
-This repository is provided as-is. If you require a specific license, add a `LICENSE` file accordingly.
 
